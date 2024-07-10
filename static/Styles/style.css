@@ -11,7 +11,8 @@ body{
      transition: color 0.3s linear;
     }
 .shap-item:hover{
-    color:#FFB800
+    color:#FFB800;
+    stroke: greenyellow;
 }
 .yazik{font-family: 'Verdana';
     color: #ffffff; 
@@ -30,6 +31,10 @@ body{
 .card{
 text-decoration: none;
 margin-left: 10px;
+transition: color 0.3s linear;
+}
+.card:hover{
+stroke: #FFB800;
 }
 .knopka{
     font-family: 'Verdana';
@@ -40,7 +45,7 @@ margin-left: 10px;
     width: 181px;
     margin-left: 10px;
     background-color: #FFB800;
-    padding: 10px;
+    padding: 15px;
     border-radius: 40px;
 }
 
